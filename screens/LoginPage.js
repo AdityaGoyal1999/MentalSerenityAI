@@ -60,7 +60,7 @@ function LoginPage({ navigation }) {
                     style={styles.button}
                     onPress={() => {
                         
-                        navigation.navigate('Stores');
+                        navigation.navigate('Dashboard');
                         // alert('email: ' + state.email + ' password: ' + state.password)
                         // 
 
