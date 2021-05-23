@@ -13,14 +13,14 @@ function VideoCall({ navigation }) {
                 scalesPageToFit={true}
                 bounces={false}
                 javaScriptEnabled
-                style={{marginTop: 60, height: 2000, width: 600}}
+                style={{marginTop: 60, width: 420}}
                 source={{
                     html: `
                         <!DOCTYPE html>
                         <html>
                             <head></head>
                             <body>
-                            <iframe src="http://45.33.101.98:8080/" height="1000" width="680" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="960" height="600" src="https://www.youtube.com/embed/5V1TFLIYUsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </body>
                         </html>
                     `,
